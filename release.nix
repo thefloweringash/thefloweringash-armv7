@@ -16,10 +16,17 @@ in
     # common interpreters
     ghc
     go
+    lua
     perl
     python3
     ruby
     rustc
+
+    # common build systems and tools
+    cmake
+    meson
+    ninja
+    pkg-config
 
     # commonly used tools
     file
