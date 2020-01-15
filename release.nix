@@ -8,6 +8,8 @@ in
 {
   inherit (pkgs)
     # essentials
+    busybox
+    nix
     stdenv
 
     # sanity check
