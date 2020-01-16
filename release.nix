@@ -45,5 +45,9 @@ in
     tree
     vim
     xterm
+
+    # kernels
+    linux
+    linux_latest
     ;
 }
