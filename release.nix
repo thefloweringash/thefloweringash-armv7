@@ -10,8 +10,10 @@ in
     # essentials
     bash
     busybox
+    coreutils
     nix
     stdenv
+    xz
     zlib
 
     # sanity check
