@@ -15,6 +15,7 @@ in
     curl
     gettext
     nix
+    patchelf
     stdenv
     texinfo
     which
