@@ -8,16 +8,21 @@ in
 {
   inherit (pkgs)
     # essentials
+    bash
     busybox
     nix
     stdenv
+    zlib
 
     # sanity check
     hello
 
-    # common interpreters
+    # common interpreters and compilers
+    cargo
+    clang
     ghc
     go
+    llvm
     lua
     perl
     python3
