@@ -9,10 +9,15 @@ in
   inherit (pkgs)
     # essentials
     bash
+    binutils
     busybox
     coreutils
+    curl
+    gettext
     nix
     stdenv
+    texinfo
+    which
     xz
     zlib
 
