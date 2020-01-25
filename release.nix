@@ -57,6 +57,7 @@ in
 
     # commonly used tools
     asciidoc
+    direnv
     file
     gdb
     git
@@ -94,5 +95,10 @@ in
     # kernels
     linux
     linux_latest
+
+    # nix specific tooling
+    cachix
+    lorri
+    nix-diff
     ;
 }
