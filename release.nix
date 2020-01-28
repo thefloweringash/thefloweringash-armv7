@@ -32,6 +32,7 @@ in
     bison
     cargo
     clang
+    clang_9 # current latest clang
     expect
     flex
     ghc
@@ -39,6 +40,7 @@ in
     guile
     help2man
     llvm
+    llvm_9 # current latest llvm
     lua
     perl
     python2
