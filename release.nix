@@ -79,6 +79,7 @@ in
     xterm
 
     # common libraries
+    cairo
     db
     expat
     gmp
@@ -88,9 +89,11 @@ in
     libmpc
     libxml2
     libxslt
+    mesa
     mpfr
     ncurses
     npth
+    pango
     pcre
     readline
 
