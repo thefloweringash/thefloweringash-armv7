@@ -60,6 +60,7 @@ in
     # commonly used tools
     asciidoc
     direnv
+    e2fsprogs
     file
     gdb
     git
