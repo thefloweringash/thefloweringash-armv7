@@ -84,6 +84,7 @@ in
     db
     expat
     gmp
+    gnutls
     isl
     libelf
     libffi
@@ -94,6 +95,7 @@ in
     mpfr
     ncurses
     npth
+    openssl
     pango
     pcre
     readline
