@@ -6,6 +6,11 @@ let
   };
 in
 {
+  exampleSystem = (pkgs.nixos {
+    fileSystems."/".device  = pkgs.lib.mkDefault "/dev/sda1";
+    boot.loader.grub.device = pkgs.lib.mkDefault "/dev/sda";
+  }).config.system.build.toplevel;
+
   inherit (pkgs)
     # essentials
     bash
