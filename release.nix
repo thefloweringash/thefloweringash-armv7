@@ -4,6 +4,8 @@ let
   pkgs = import nixpkgs {
     system = "armv7l-linux";
   };
+
+  inherit (pkgs) lib;
 in
 {
   exampleSystem = (pkgs.nixos {
@@ -37,7 +39,6 @@ in
     bison
     cargo
     clang
-    clang_9 # current latest clang
     expect
     flex
     ghc
@@ -45,7 +46,6 @@ in
     guile
     help2man
     llvm
-    llvm_9 # current latest llvm
     lua
     perl
     python2
@@ -114,4 +114,10 @@ in
     lorri
     nix-diff
     ;
+
+  llvmPackages_latest = lib.recurseIntoAttrs {
+    inherit (pkgs.llvmPackages_latest)
+      clang
+      llvm;
+  };
 }
